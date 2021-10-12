@@ -1,0 +1,7 @@
+<h1>Movies#index</h1>
+<p>Find me in app/views/movies/index.html.erb</p>
+
+<% @movies.each do |film| %>
+<%= film.name %>
+ <%= image_tag film.url %>
+<% end %>
